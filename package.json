@@ -10,6 +10,9 @@
     "pretty": "prettier 'src/**/*.{ts,tsx,js,jsx}' --write"
   },
   "dependencies": {
+    "@rxfx/bus": "^1.0.8",
+    "@rxfx/react": "^1.0.1",
+    "@rxfx/service": "^1.1.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "svelte-fsm": "^1.2.0",

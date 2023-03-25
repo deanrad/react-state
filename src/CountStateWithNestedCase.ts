@@ -24,6 +24,7 @@ export interface Actions {
   resetAsync(): void;
 }
 
+
 const dispatch = (state: State, action: string): State => {
   switch (state.availability) {
     case "available":
